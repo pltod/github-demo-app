@@ -1,0 +1,40 @@
+<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="navbar-inner">
+		<a href="#" class="brand" rel="tooltip"
+		data-original-title="Demonstrates front-end architecture with Backbone.js"
+		data-placement="bottom">Demo Application</a>
+		<div class="container">
+			<!-- For small screens -->
+			<button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar collapsed" type="button">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<!-- End for small screens -->
+			<div class="nav-collapse collapse pull-right">
+				<ul class="nav">
+					<li class="">
+						<a id="how" href="#myModal" data-toggle="modal"><i class="icon-info-sign icon-white"></i> ABOUT THIS APPLICATION</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-header">
+		<h4>About This Application</h4>
+	</div>
+	<div class="modal-body">
+		Demo application that demonstrates sample front-end architecture with Backbone.js
+		<br/>
+		The application uses Github REST API. It returns 10 users from Twitter Github Organization. 
+		<br/>
+		When particular user is clicked the application shows 20 of its repositories with the corresponding number of forks and number of people that watch it.
+	</div>
+	<div class="modal-footer">
+		<button class="btn btn-danger btn-mini" data-dismiss="modal" aria-hidden="true">
+			Close
+		</button>
+	</div>
+</div>

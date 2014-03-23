@@ -1,0 +1,19 @@
+{
+  "name": "Demo",
+  "version": "0.0.1",
+  "dependencies": {
+  	"requirejs": "~2.1.8",
+    "underscore": "~1.4.4",
+    "jquery": "1.10.2",
+    "backbone": "~1.0.0",
+    "layoutmanager": "~0.8.7",
+    "handlebars.js": "~1.0.12",
+    "bootstrap": "~2.3.1",
+    "almond": "0.2.6"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ]
+}
