@@ -2,8 +2,8 @@
 	"name": "Demo",
 	"version": "0.0.1",
 	"description": "Demonstrates front-end engineering practices with Backbone.js",
-	"author": "Plamen Todorov <ptodorov@csc.com>",
-	"license": "CSC Internal Use Only",
+	"author": "Plamen Todorov",
+	"license": "MIT",
 	"engines": {
 		"node": "~0.10.19"
 	},
