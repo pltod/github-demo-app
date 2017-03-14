@@ -176,7 +176,7 @@ However, possible approaches are:
 
 * using Karma as a test runner: http://karma-runner.github.io/0.10/index.html 
 
-* using Karma Mocha plug-in Mocha test framework: http://visionmedia.github.io/mocha/ 
+* using Karma Mocha plug-in Mocha test framework: http://mochajs.org/ 
 
 * using Chai.js as assertion library: http://chaijs.com/   
 
